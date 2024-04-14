@@ -3,13 +3,15 @@ import Hero from "./Hero";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 
+const apiKey = process.env.REACT_APP_API_KEY;
+
 const MovieView = () => {
     const {id} = useParams();
     const [movieDetails, setMovieDetails] = useState({});
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=1e77157cdc2fb9c12ac77c06839e1f72`)
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`)
             .then(response => response.json())
             .then(data => {
                 setMovieDetails(data);

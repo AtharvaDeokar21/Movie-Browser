@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import Hero from './Hero';
+const apiKey = process.env.REACT_APP_API_KEY; // Add your api key
 
 const Home = () => {
     const [featuredMovies, setFeaturedMovies] = useState([]);
 
     useEffect(() => {
-        fetch(`https://api.themoviedb.org/3/trending/movie/week?api_key=1e77157cdc2fb9c12ac77c06839e1f72`)
+        fetch(`https://api.themoviedb.org/3/trending/movie/week?api_key=${apiKey}`)
             .then(response => response.json())
             .then(data => {
                 setFeaturedMovies(data.results.slice(0, 16)); // Displaying only 16 featured movies

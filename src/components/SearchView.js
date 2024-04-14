@@ -1,9 +1,5 @@
 import { Link } from 'react-router-dom';
 import Hero from './Hero';
-// API key: 1e77157cdc2fb9c12ac77c06839e1f72
-//'https://api.themoviedb.org/3/search/movie?query=Star%20wars&api_key=1e77157cdc2fb9c12ac77c06839e1f72'
-
-//https://www.omdbapi.com/?i=tt3896198&apikey=74a2ca0
 
 const MovieCard = ({ movie }) => {
   const posterUrl = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Poster+Available';

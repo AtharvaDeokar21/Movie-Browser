@@ -20,12 +20,11 @@
 }
 
 .web-developer {
-    border: 4px solid #181515; /* Light gray border */
-    border-radius: 50%; /* Make the image circular */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    border: 4px solid #181515; 
+    border-radius: 50%; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* App.css */
 .card {
     border: none;
     transition: transform 0.2s ease;
@@ -42,15 +41,14 @@
     text-align: center;
 }
 
-/* App.css */
 .hero-container {
     position: relative;
     background-size: cover;
     background-position: center;
-    padding: 50px 0; /* Adjust the padding as needed */
+    padding: 50px 0; 
     text-align: center;
     color: #fff;
-    overflow: hidden; /* Ensure gradient overlay covers entire background */
+    overflow: hidden; 
   }
   
   .overlay {
@@ -59,13 +57,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); /* Gradient overlay */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));  
   }
   
   .hero-text {
-    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-size: 2.5rem; 
     font-weight: bold;
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-bottom: 20px; 
   }
   
   /* Media query for smaller screens */
@@ -75,54 +73,41 @@
     }
   }
 
-  /* App.css */
 body {
-    font-family: 'Roboto', sans-serif; /* Choose a suitable font family */
-    background-color: #1f1f1f; /* Dark charcoal background color */
-    color: #212529; /* Text color */
+    font-family: 'Roboto', sans-serif; 
+    background-color: #1f1f1f; 
+    color: #212529; 
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
   
-/* App.css */
 
-/* Adjust text color for specific elements */
 h2,p, h4 {
-  color: #ffffff; /* White text color */
+  color: #ffffff; 
 }
 
-/* App.css */
 
-/* Style the cards for movie listings */
 .card {
-    background-color: #2e2d2d; /* Dark background color for the entire card */
-    color: #fff; /* White text color for card content */
+    background-color: #2e2d2d; 
+    color: #fff; 
   }
   
-  /* Style the footer section containing the "Show Details" button */
   .card-footer {
-    background-color: #0c0b0b; /* Dark background color for the footer */
+    background-color: #0c0b0b; 
   }
-  
-/* App.css */
 
-/* App.css */
-
-/* App.css */
-
-/* Style the "Show Details" button */
 .btn-show-details {
-    background-color: #555; /* Dark gray button background color */
-    color: #fff; /* White text color */
-    border-color: #555; /* Dark gray border color */
-    background-image: linear-gradient(to bottom, #666, #555); /* Gradient effect */
+    background-color: #555;
+    color: #fff;
+    border-color: #555; 
+    background-image: linear-gradient(to bottom, #666, #555); 
   }
   
-  /* Hover effect for the "Show Details" button */
+  
   .btn-show-details:hover {
-    background-color: #444; /* Slightly darker gray background color on hover */
-    border-color: #444; /* Slightly darker gray border color on hover */
+    background-color: #444; 
+    border-color: #444; 
   }
   
   
