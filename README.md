@@ -25,6 +25,7 @@ If the site is not loading completely, follow these steps:
 2. Navigate to Network & Internet
 3. Change DNS server of your local internet(wifi) by changing DNS server assignment to 'Manual'.
 4. Now Enter IPv4 DNS server as : 1.1.1.1
+5. The above steps must be followed as tmdb api may not be available in your current server location.
 
 To run this project locally, follow these steps:
 
