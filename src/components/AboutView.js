@@ -1,6 +1,5 @@
 import Hero from "./Hero";
-import myImage from "D:\\Atharva\\Web Dev\\React\\moviebrowser\\src\\components\\atharva.jpg"
-
+import myImage from "./atharva.jpg"
 const AboutView = () => {
     return (
         <>
