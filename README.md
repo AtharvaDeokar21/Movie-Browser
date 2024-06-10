@@ -19,13 +19,15 @@ Welcome to Movie Browser! This is a web application that allows users to browse 
 
 ## Getting Started
 
-To preview my project click [Here](https://snazzy-arithmetic-769f0e.netlify.app/)
+To preview my project click [Here](https://snazzy-arithmetic-769f0e.netlify.app/) .
 If the site is not loading completely, follow these steps:
 1. Go to setting on your devide.
 2. Navigate to Network & Internet
 3. Change DNS server of your local internet(wifi) by changing DNS server assignment to 'Manual'.
 4. Now Enter IPv4 DNS server as : 1.1.1.1
 5. The above steps must be followed as tmdb api may not be available in your current server location.
+   OR
+Just open the link in incognito tab.
 
 To run this project locally, follow these steps:
 
